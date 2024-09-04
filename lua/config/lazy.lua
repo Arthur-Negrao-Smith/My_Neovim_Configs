@@ -34,5 +34,3 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
--- Basic configs
-vim.cmd("set number")
