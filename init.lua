@@ -1,3 +1,6 @@
+-- Init my keymaps
+require("config.keymaps")
+
 -- Init lazy
 require("config.lazy")
 
@@ -7,8 +10,6 @@ require("config.options")
 -- Init my themes
 require("config.themes")
 
--- Init my keymaps
-require("config.keymaps")
-
 -- Init my plugins config
 require("config.plugins_config.nvim_tree_config")
+require("config.plugins_config.which_key_config")
